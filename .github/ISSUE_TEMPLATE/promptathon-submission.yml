@@ -38,7 +38,7 @@ body:
       label: Completion
       description: Did the agent complete the mission or open-ended goal?
       options:
-        - label: Yes, the agent completed the mission or goal.
+        - label: *Yes*, the agent completed the mission or goal.
           required: false
         - label: No, the agent did not complete the mission or goal.
           required: false
