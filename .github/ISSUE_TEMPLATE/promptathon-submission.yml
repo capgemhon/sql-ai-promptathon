@@ -44,10 +44,6 @@ body:
     attributes:
       label: Bonus work
       description: Did you go over and beyond? Share any extra work, optimizations, or enhancements you implemented.
-      placeholder: - Added optional baseline auto-label workflow to accelerate annotation.
-- Added MCP cross-tool consistency calculations.
-- Added model-card style risk framing and overclaim mitigation language.
-- Added architecture diagram and improvement roadmap.
-- Included measurable validation: mean non-self distance@5 = `0.2987`, Jaccard@5 (DocId 2) = `1.0`, exact order match = `True`.
+      placeholder: Added optional baseline auto-label workflow to accelerate annotation. Added MCP cross-tool consistency calculations. Added model-card style risk framing and overclaim mitigation language. Added architecture diagram and improvement roadmap. Included measurable validation: mean non-self distance@5 = `0.2987`, Jaccard@5 (DocId 2) = `1.0`, exact order match = `True`.
     validations:
       required: false
