@@ -1,5 +1,5 @@
-name: Promptathon submission
-description: Submit your Promptathon work as a GitHub Issue.
+name: Cross-Language Semantic Retrieval Audit for Zava Voice of Customer Application
+description: Cross-Language Semantic Retrieval Audit for Zava Voice of Customer Application
 title: "Mission: "
 labels:
   - promptathon-submission
@@ -7,13 +7,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for sharing your Promptathon work. Complete each section so reviewers can understand the goal, process and outcome of your solution.
+        Thanks for sharing your Promptathon work. 
   - type: textarea
     id: mission-open-goal
     attributes:
       label: Mission/open goal Description
       description: What mission did you choose, or what open-ended goal did you set for the agent?
-      placeholder: Describe the problem, scenario, dataset, or business question you asked the agent to solve.
+      placeholder: Evaluate whether Zava's semantic retrieval can reliably identify cross-language customer feedback themes across reviews and support conversations, and measure quality using hand-labeled Precision@5.
     validations:
       required: true
   - type: input
@@ -21,7 +21,7 @@ body:
     attributes:
       label: Harness and model
       description: Which harness did you use, and which model powered it?
-      placeholder: "Example: GitHub Copilot with GPT-5.5"
+      placeholder: "GitHub Copilot coding agent in VS Code with GPT-5.3-Codex."
     validations:
       required: true
   - type: textarea
