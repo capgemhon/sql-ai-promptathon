@@ -1,3 +1,6 @@
+name: "Promptathon Submission"
+description: true
+
 ### Mission/open goal Description
 
 Evaluate whether Zava's semantic retrieval can reliably identify cross-language customer feedback themes across reviews and support conversations, and measure quality using hand-labeled Precision@5.
