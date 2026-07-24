@@ -29,7 +29,7 @@ body:
     attributes:
       label: Turn-by-turn journey
       description: Summarize the important prompts, agent actions, SQL interactions, decisions, and iterations.
-      placeholder: 1. Prompt:
+      placeholder: | 1. Prompt:
    "Create an artifact voc_semantic_retrieval_audit.ipynb ... evaluate cross-language themes and hand-labeled Precision@5."
    Agent response or action:
    Created notebook with retrieval flow, label template, Precision@5 evaluation, and error analysis.
